@@ -6,6 +6,8 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
+//Par Impart
+
 @WebServlet(name = "ParImparServlet", value = "/par-impar")
 public class ParImparServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
